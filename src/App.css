@@ -1,55 +1,65 @@
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .move-logo {
-  background-image: url("./img/Big_Move.jpg"); 
+  background-image: url('./img/Big_Move.jpg');
   background-size: cover;
   width: 40%;
   max-width: 30%;
-  max-height: 30%;  
+  max-height: 30%;
 }
 
-.move-header {
+.move-head {
   background-color: #d3e3ff;
 }
 
+.move-head-link {
+  color: #111 !important;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
 .move-img-service {
-  background-image: url("./img/truck.jpg"); 
+  background-image: url('./img/truck.jpg');
   background-size: cover;
-  background-blend-mode:darken;
+  background-blend-mode: darken;
   width: 100%;
-  height: 300px; 
+  height: 300px;
 }
 
 .move-img-about {
-  background-image: url("./img/about.jpeg"); 
+  background-image: url('./img/about.jpeg');
   background-size: cover;
-  background-blend-mode:darken;
+  background-blend-mode: darken;
   width: 100%;
-  height: 300px; 
+  height: 300px;
 }
 
+/* carusel imgs */
+
 .slide1 {
-  background-image: url("./img/slide1.png"); 
+  background-image: url('./img/slide1.png');
   background-size: cover;
   width: 100%;
   height: 700px;
 }
 
 .slide2 {
-  background-image: url("./img/slide2.jpg"); 
+  background-image: url('./img/slide2.jpg');
   background-size: cover;
   width: 100%;
   height: 700px;
 }
 
 .slide3 {
-  background-image: url("./img/slide4.jpg"); 
+  background-image: url('./img/slide4.jpg');
   background-size: cover;
   width: 100%;
   height: 700px;
 }
+
+/*  */
 
 .move-font-lalezar-white {
   font-family: 'Lalezar', cursive;
@@ -57,14 +67,10 @@ body {
 }
 
 .move-nav-item-top {
-  color: #343a40!important;
+  color: #343a40 !important;
   font-weight: bold;
-  padding: .5rem!important;
+  padding: 0.5rem !important;
   font-size: smaller;
-  text-transform: capitalize;
-}
-
-.move-caps {
   text-transform: capitalize;
 }
 
@@ -72,14 +78,12 @@ body {
   font-weight: bold;
 }
 
-.move-footer-menu {
-  color: #fff;
-}
-
 .move-flex {
   display: flex;
   padding-left: 0;
 }
+
+/* left menu */
 
 .left-menu {
   margin-left: 0px;
@@ -90,28 +94,22 @@ body {
   display: table-column;
 }
 
-@media screen and (max-width : 760px){
+/* hide left menu in services if smaller media screen */
+@media screen and (max-width: 760px) {
   .left-menu {
     display: none;
   }
-  #move-footer-col1 {
-    display: none;
-  }
-  #move-footer-col2 {
-    margin-left: 25%;
-    margin-bottom: 5%;
-  }
-  #move-footer-col3 {
-    margin-left: 25%;
-  }
 }
 
+/* right content */
 .right-content {
   width: 75%;
   width: 100%;
   float: right;
   display: table-column;
 }
+
+/* carusel custom css */
 
 .move-item {
   flex: 1 1 auto;
@@ -133,14 +131,14 @@ body {
 }
 
 .move-img1 {
-  background-image: url("./img/img1.jpg"); 
+  background-image: url('./img/img1.jpg');
   background-size: cover;
   height: 175px;
   width: 100%;
   display: block;
 }
 .move-img2 {
-  background-image: url("./img/img2.jpg"); 
+  background-image: url('./img/img2.jpg');
   background-size: cover;
   height: 175px;
   width: 100%;
@@ -148,27 +146,33 @@ body {
 }
 
 .move-img3 {
-  background-image: url("./img/img3.jpg"); 
+  background-image: url('./img/img3.jpg');
   background-size: cover;
   height: 175px;
   width: 100%;
   display: block;
 }
 
-.move-footer {
-  background-color: rgba(0, 0, 0, .85);
+/* footer section */
+
+.move-footer-bkg {
+  background-color: #111;
+  color: #fff;
+  font-size: 9pt;
 }
 
-#move-footer-col1 {
-  margin-left: 7%;
+.move-footer-link {
+  color: #fff;
+  font-weight: bold;
 }
 
-#move-footer-col2 {
-  margin-left: 0;
+.move-footer-link:hover {
+  color: #fff;
 }
 
-#move-footer-col3 {
-  margin-right: 7%;
+.move-copyright {
+  color: #111;
+  background-color: #d3e3ff;
 }
 
 .move-btn {
