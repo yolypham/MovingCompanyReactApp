@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-//import Header from './components/layout/Header';
-//import Footer from './components/layout/Footer';
-//import Content from './components/layout/Content';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -20,16 +17,15 @@ class App extends Component {
 
           <nav class="navbar sticky-top navbar-expand-sm navbar-dark move-head mb-3">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                Navbar
-              </a>
-              <button
-                class="navbar-toggler"
+              <div class="move-logo img-fluid" />
+
+              <p
+                class="navbar-toggler move-nav-toggler"
                 data-toggle="collapse"
                 data-target="#navbarNav"
               >
-                <span class="navbar-toggler-icon" />
-              </button>
+                MENU
+              </p>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <Link to="/" class="nav-item">
