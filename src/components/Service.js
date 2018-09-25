@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-//import Header from './layout/Header'
+
+import img1 from '../img/img1.jpg';
+import img2 from '../img/img2.jpg';
+import img3 from '../img/img3.jpg';
 
 class Service extends Component {
   render() {
@@ -35,7 +38,7 @@ class Service extends Component {
               <div className="row">
                 <div className="col-md-4">
                   <div className="move-card-item mb-4">
-                    <div className="move-img1 img-fluid" />
+                    <img className="img-fluid" src={img1} />
                     <div className="move-item">
                       <h5>Air Delivery</h5>
                       <p className="card-text">
@@ -49,7 +52,7 @@ class Service extends Component {
 
                 <div className="col-md-4">
                   <div className="move-card-item mb-4">
-                    <div className="move-img2 img-fluid" />
+                    <img className="img-fluid" src={img2} />
                     <div className="move-item">
                       <h5>Ground Shipping</h5>
                       <p className="card-text">
@@ -63,7 +66,7 @@ class Service extends Component {
 
                 <div className="col-md-4">
                   <div className="move-card-item mb-4">
-                    <div className="move-img3 img-fluid" />
+                    <img className="img-fluid" src={img3} />
                     <div className="move-item">
                       <h5>Sea Delivery</h5>
                       <p className="card-text">

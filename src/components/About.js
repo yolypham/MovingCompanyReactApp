@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-//import Header from './layout/Header'
+import aboutus from '../img/about.jpg';
+import img1 from '../img/people1.jpg';
+import img2 from '../img/people1.jpg';
+import img3 from '../img/people1.jpg';
 
 class About extends Component {
   render() {
@@ -26,9 +29,9 @@ class About extends Component {
           <div className="row">
             <div className="col-md-4">
               <div className="move-card-item mb-4">
-                <div className="move-img1 img-fluid" />
+                <img className="img-fluid" src={img1} />
                 <div className="move-item">
-                  <h5>Air Delivery</h5>
+                  <h5>Trust</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -40,9 +43,9 @@ class About extends Component {
 
             <div className="col-md-4">
               <div className="move-card-item mb-4">
-                <div className="move-img2 img-fluid" />
+                <img className="img-fluid" src={img2} />
                 <div className="move-item">
-                  <h5>Ground Shipping</h5>
+                  <h5>Punctual</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -54,9 +57,9 @@ class About extends Component {
 
             <div className="col-md-4">
               <div className="move-card-item mb-4">
-                <div className="move-img3 img-fluid" />
+                <img className="img-fluid" src={img3} />
                 <div className="move-item">
-                  <h5>Sea Delivery</h5>
+                  <h5>Customer Focus</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna

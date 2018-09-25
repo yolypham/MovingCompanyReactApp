@@ -3,10 +3,7 @@ body {
 }
 
 .move-logo {
-  background-image: url('./img/Big_Move.jpg');
-  background-size: cover;
-  width: 30%;
-  height: 70px;
+  max-width: 30%;
 }
 
 .move-nav-toggler {
@@ -65,28 +62,9 @@ body {
   font-style: italic;
 }
 
-.slide1 {
-  background-image: url('./img/slide1.png');
-  background-size: cover;
+.slide-img {
   width: 100%;
-  height: 700px;
 }
-
-.slide2 {
-  background-image: url('./img/slide2.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-}
-
-.slide3 {
-  background-image: url('./img/slide4.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-}
-
-/*  */
 
 .move-font-lalezar-white {
   font-family: 'Lalezar', cursive;
@@ -155,29 +133,6 @@ body {
   background-color: #fff;
   background-clip: border-box;
   border: 0;
-}
-
-.move-img1 {
-  background-image: url('./img/img1.jpg');
-  background-size: cover;
-  height: 175px;
-  width: 100%;
-  display: block;
-}
-.move-img2 {
-  background-image: url('./img/img2.jpg');
-  background-size: cover;
-  height: 175px;
-  width: 100%;
-  display: block;
-}
-
-.move-img3 {
-  background-image: url('./img/img3.jpg');
-  background-size: cover;
-  height: 175px;
-  width: 100%;
-  display: block;
 }
 
 /* footer section */

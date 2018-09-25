@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import slide1 from '../img/slide1.png';
+import slide2 from '../img/slide2.jpg';
+import slide3 from '../img/slide4.jpg';
 
 class Home extends Component {
   render() {
@@ -11,7 +14,7 @@ class Home extends Component {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="img-fluid slide1" />
+              <img className="img-fluid slide-img" src={slide1} />
               <div class="carousel-caption d-none d-md-block">
                 <p className="move-txt-slide1">Moving Without Borders</p>
                 <p className="move-txt-slide1s">7 Days | 24 Hours</p>
@@ -19,14 +22,14 @@ class Home extends Component {
             </div>
 
             <div className="carousel-item">
-              <div className="img-fluid slide2" />
+              <img className="img-fluid slide-img" src={slide2} />
               <div class="carousel-caption d-none d-md-block ">
                 <p className="move-txt-slide2"> We'll do all the hard work</p>
               </div>
             </div>
 
             <div className="carousel-item">
-              <div className="img-fluid slide3" />
+              <img className="img-fluid slide-img" src={slide3} />
               <div class="carousel-caption d-none d-md-block">
                 <p className="move-txt-slide3">Save Time and Money</p>
               </div>

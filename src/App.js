@@ -7,6 +7,7 @@ import Service from './components/Service';
 import About from './components/About';
 
 import './App.css';
+import logo from './img/Big_Move.jpg';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
 
           <nav class="navbar sticky-top navbar-expand-sm navbar-dark move-head mb-3">
             <div class="container">
-              <div class="move-logo img-fluid" />
+              <img class="img-fluid move-logo" src={logo} />
 
               <p
                 class="navbar-toggler move-nav-toggler"
