@@ -70,7 +70,7 @@ class App extends Component {
           <footer class="page-footer font-small pt-4 move-footer-bkg">
             <div class="container container-fluid text-center text-md-left">
               <div class="row">
-                <div class="col-sm-2">
+                <div id="move-foot-menu" class="col-sm-2">
                   <ul class="list-unstyled">
                     <Link to="/" class="nav-item">
                       <a
@@ -114,8 +114,6 @@ class App extends Component {
                     </Link>
                   </ul>
                 </div>
-
-                <hr class="clearfix w-100 d-md-none pb-3" />
 
                 <div class="col-md-6 mt-md-0 mt-3">
                   <h5 class="text-uppercase">Contact Us</h5>

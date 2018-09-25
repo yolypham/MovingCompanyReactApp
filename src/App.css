@@ -109,6 +109,13 @@ body {
   }
 }
 
+/* hide footer menu if smaller media screen */
+@media screen and (max-width: 760px) {
+  #move-foot-menu {
+    display: none;
+  }
+}
+
 /* right content */
 .right-content {
   width: 75%;
