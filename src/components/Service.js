@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import serviceImg from '../img/truck.jpg';
 import img1 from '../img/img1.jpg';
 import img2 from '../img/img2.jpg';
 import img3 from '../img/img3.jpg';
@@ -8,9 +9,13 @@ class Service extends Component {
   render() {
     return (
       <div className="container">
-        <div className="move-img-service px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center img-fluid">
-          <h6 className="display-4 move-font-lalezar-white">Services</h6>
+        <div className="move-main-img-box">
+          <img className="img-fluid" src={serviceImg} />
+          <div className="img-title">
+            <h6 className="display-4 move-font-lalezar-white">Services</h6>
+          </div>
         </div>
+
         <div className="move-flex">
           <div className="container left-menu">
             <p>&nbsp;</p>

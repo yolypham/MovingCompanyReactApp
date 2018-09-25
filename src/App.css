@@ -7,7 +7,7 @@ body {
 }
 
 .move-nav-toggler {
-  color: #111 !important;
+  color: #222 !important;
   margin-bottom: 0 !important;
 }
 
@@ -17,25 +17,32 @@ body {
 }
 
 .move-head-link {
-  color: #111 !important;
+  color: #222 !important;
   font-size: 9pt;
   font-weight: bold;
 }
 
 .move-img-service {
-  background-image: url('./img/truck.jpg');
-  background-size: cover;
-  background-blend-mode: darken;
-  width: 100%;
-  height: 300px;
+  width: auto;
 }
 
 .move-img-about {
-  background-image: url('./img/about.jpeg');
-  background-size: cover;
-  background-blend-mode: darken;
-  width: 100%;
-  height: 300px;
+  width: auto;
+}
+
+.move-main-img-box {
+  position: relative;
+}
+
+.img-title {
+  position: absolute;
+  color: #eee;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 10%;
+  margin-top: 5%;
+  letter-spacing: 3px;
 }
 
 /* carusel imgs */
@@ -44,11 +51,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 22pt;
 }
-.move-txt-slide1s {
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 16pt;
-}
+
 .move-txt-slide2 {
   text-align: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +60,7 @@ body {
 }
 .move-txt-slide3 {
   text-align: left;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30pt;
   font-style: italic;
 }
@@ -68,7 +71,7 @@ body {
 
 .move-font-lalezar-white {
   font-family: 'Lalezar', cursive;
-  color: #fff;
+  color: #eee;
 }
 
 .move-nav-item-top {
@@ -138,33 +141,33 @@ body {
 /* footer section */
 
 .move-footer-bkg {
-  background-color: #111;
-  color: #fff;
+  background-color: #222;
+  color: #eee;
   font-size: 9pt;
 }
 
 .move-footer-link {
-  color: #fff;
+  color: #eee;
   font-weight: bold;
 }
 
 .move-footer-link:hover {
-  color: #fff;
+  color: #eee;
 }
 
 .move-copyright {
-  color: #111;
+  color: #222;
   background-color: #d3e3ff;
 }
 
 .move-btn {
   background-color: #0069ac;
-  color: #fff;
+  color: #eee;
   border-color: #045588;
 }
 
 .move-btn:hover {
   background-color: #045588;
-  color: #fff;
+  color: #eee;
   border-color: #045588;
 }
