@@ -135,18 +135,17 @@ class App extends Component {
                 <div class="col-md-4 mt-md-0 mt-3">
                   <h5 class="text-uppercase">Newsletter</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                  <p>
+                  <form action="">
                     <input
                       className="form-control mr-sm-2"
-                      type="text"
+                      type="email"
                       placeholder="Enter email"
                     />
-                  </p>
-                  <p>
+                    <p />
                     <button className="move-btn btn btn-primary" type="submit">
                       SUMMIT
                     </button>
-                  </p>
+                  </form>
                 </div>
               </div>
             </div>
